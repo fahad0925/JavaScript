@@ -634,15 +634,105 @@
 //   if (input % 5 === 0) return "buzz";
 // }
 
-checkspeed(72);
+// checkspeed(72);
 
-function checkspeed(limit) {
-  let normalspeed = 74;
-  if (limit <= normalspeed) console.log("Ok");
-  else {
-    let points = Math.floor((limit - normalspeed) / 5);
+// function checkspeed(limit) {
+//   let normalspeed = 74;
+//   if (limit <= normalspeed) console.log("Ok");
+//   else {
+//     let points = Math.floor((limit - normalspeed) / 5);
 
-    if (points >= 12) console.log("license suspanded");
-    else console.log("points", points);
-  }
+//     if (points >= 12) console.log("license suspanded");
+//     else console.log("points", points);
+//   }
+// }
+
+// shownumber(100);
+
+// function shownumber(limit) {
+//   for (let i = 0; i <= limit; i++)
+//     if (i % 2 === 0) console.log(i, "EVEN");
+//     else console.log(i, "ODD");
+// }
+
+// let array = [1, 2, 3, 4, null, 0, undefined];
+
+// console.log(countTruthy(array));
+
+// function countTruthy(array) {
+//   let count = 0;
+//   for (let value of array) if (value) count++;
+//   return count;
+// }
+
+// let movie = {
+//   name: "a",
+//   age: 15,
+//   office: "2",
+// };
+
+// showproperties(movie);
+
+// function showproperties(obj) {
+//   for (let key in obj) {
+//     if (typeof obj[key] === "string") console.log(key, obj[key]);
+//   }
+// }
+
+// let marks = [80, 30];
+
+// console.log(calculated(marks));
+
+// function calculated(marks) {
+//   let sum = 0;
+//   for (let mark of marks) sum += mark;
+//   let average = sum / marks.length;
+
+//   if (average < 60) return "F";
+//   if (average < 70) return "E";
+//   if (average < 75) return "D";
+//   if (average < 80) return "C";
+//   if (average < 85) return "B";
+//   if (average < 90) return "A";
+// }
+
+// showstar(10);
+
+// function showstar(rows) {
+//   for (let row = 1; row <= rows; row++) {
+//     let pattern = "";
+//     for (let i = 0; i < row; i++) pattern += "* ";
+//     console.log(pattern);
+//   }
+// }
+
+// function dabbu(asim) {}
+
+// let dabbu = function (asim) {};
+
+// let dabbu = (asim) => {};
+
+// function createcircle(number) {
+//   return {
+//     name: number,
+//     uemr: "againdabbu",
+//   };
+// }
+
+// let circle1 = createcircle(1000000000000000000002 );
+// console.log(circle1);
+
+// function sum() {
+//   let totle = 0;
+//   for (let value of arguments) totle += value;
+//   return totle;
+// }
+
+// console.log(sum(1, 2, 34, 4));
+
+function sum(discount, ...args) {
+  const total = prices.reduce((a, b) => a + b);
+  return total * (1 - discount);
 }
+
+console.log(sum(0.1, 10, 20, 30));
