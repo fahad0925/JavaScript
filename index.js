@@ -730,9 +730,15 @@
 
 // console.log(sum(1, 2, 34, 4));
 
-function sum(discount, ...args) {
-  const total = prices.reduce((a, b) => a + b);
-  return total * (1 - discount);
+// function sum(discount, ...args) {
+//   const total = args.reduce((a, b) => a + b);
+//   return total * (1 - discount);
+// }
+
+// console.log(sum(0.1, 10, 20, 30, 4000));
+
+function average(english, math, totalnumber) {
+  return english + math - totalnumber;
 }
 
-console.log(sum(0.1, 10, 20, 30));
+console.log(average(80, 100, 200));
