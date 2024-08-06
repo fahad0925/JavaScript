@@ -737,8 +737,240 @@
 
 // console.log(sum(0.1, 10, 20, 30, 4000));
 
-function average(english, math, totalnumber) {
-  return english + math - totalnumber;
-}
+// function average(english, math, totalnumber) {
+//   return english + math - totalnumber;
+// }
 
-console.log(average(80, 100, 200));
+// console.log(average(80, 100, 200));
+
+// const person = {
+//   firstname: "john",
+//   lastname: "smith",
+
+// get fullName() {
+//   return `${person.firstname} ${person.lastname}`;
+// },
+
+//   set fullName(value) {
+//     const parts = value.split(" ");
+//     this.firstName = parts[0];
+//     this.lastName = parts[1];
+//   },
+// };
+
+// person.fullName = "asim muneer";
+
+// console.log(person.fullName);
+
+// const person = {
+
+//   firstName: 'Mosh',
+
+//   lastName: 'Hamedani',
+
+//   get fullName() {
+
+//   return ${person.firstName} ${person.lastName
+
+//   , }
+
+//   set fullName(value) {
+
+//   const parts value.split('');
+
+//   this.firstName = parts [0];
+
+//   this.lastName = parts [1];
+
+// },
+// }
+// };
+
+// person.fullName = "asim muneer";
+
+// console.log(person);
+
+// function createCircle(radius) {
+//   return {
+//     radius,
+//   };
+// }
+
+// let raki = createCircle(1);
+
+// console.log(raki);
+
+// function Circle(radius) {
+//   this.radius = radius;
+//   this.draw = function (chick) {
+//     console.log(draw);
+//   };
+// }
+
+// let asii = new Circle(3);
+// console.log(asii);
+
+// let circle = {
+//   radius: 1,
+//   draw() {
+//     console.log(draw);
+//   },
+// };
+
+// let another = { ...circle };
+// console.log(another);
+
+// let another = Object.assign({}, circle);
+// console.log(another);
+
+// let another = {};
+
+// for (let key in circle) another[key] = circle[key];
+
+// console.log(another);
+
+// const name = "mosh";
+
+// console.log(`hi ${name}
+// thankyou for joining vs code`);
+
+// function asim(address, zipcode, street) {
+//   return {
+//     address,
+//     zipcode,
+//     street,
+//   };
+// }
+
+// console.log(asim(1, 4, 5));
+
+// function asim(address, zipcode, street) {
+//   this.address = address;
+//   this.zipcode = zipcode;
+//   this.street = street;
+// }
+
+// let sch = new asim(1, 4, 5);
+
+// console.log(sch);
+
+// let video = {
+//   title: "fahad",
+//   body: "hussain",
+//   author: "kelin",
+//   views: 43,
+//   comments: {
+//     author: "dfwjnf",
+//     body: "dfwwf",
+//   },
+//   islive: "true",
+// };
+
+// console.log(video);
+
+// let number = [1, 2, 3];
+
+// number.splice(3, 0, "s", "p");
+
+// console.log(number);
+// let course = [1, 2, 3, 4];
+
+// let assig = course.findIndex((course) => course.id === "a" );
+// course = [];
+
+// console.log(course);
+
+// let course = [1, 2, 3, 4];
+
+// let jnj = course.reduce((a, b) => a + b);
+
+// console.log(jnj);
+
+// let number = arrayfromranges(4, 10);
+
+// console.log(number);
+
+// function arrayfromranges(min, max) {
+//   let output = [];
+//   for (let i = min; i <= max; i++) output.push(i);
+//   return output;
+// }
+
+// let person = {
+//   firstname: "asim",
+//   lastname: "muneer",
+//   get fullname() {
+//     return `${person.firstname} ${person.lastname}`;
+//   },
+
+//   set fullname(value) {
+//     let parts = value.split(" ");
+//     this.firstname = parts[0];
+//     this.lastname = parts[1];
+//   },
+// };
+
+// person.fullname = "fahad hussain";
+// console.log(person);
+
+// let person = {
+//   firstname: "asim",
+//   lastname: "muneer",
+//   set fullname(value) {
+//     if (typeof value !== "string") throw new Error("valur is not a string");
+
+//     let parts = value.split(" ");
+//     this.firstname = parts[0];
+//     this.lastname = parts[1];
+//   },
+// };
+
+// try {
+//   person.fullname = null;
+// } catch (e) {
+//   alert(e);
+// }
+// console.log(person);
+
+// console.log(sum([3, 423, 242]));
+
+// function sum(...rest) {
+//   if (rest.length === 1 && Array.isArray(rest[0])) rest = [...rest[0]];
+//   return rest.reduce((a, b) => a + b);
+// }
+
+// console.log(sum([3, 3, 4, 34]));
+
+// function sum(...values) {
+//   if (values.length === 1 && Array.isArray(values[0])) values = [...values[0]];
+//   return values.reduce((a, b) => a + b);
+// }
+
+// function lets(radius) {
+//   return {
+//     radius: radius || 14,
+//     area: 16,
+//   };
+// }
+// console.log(lets(41));
+
+// const video = {
+//   title: "a",
+//   play() {
+//     console.log(this.title, "o jaa");
+//   },
+// };
+
+// video.play();
+// let numbers = [1, 1, 1, 2];
+// let element = 1;
+
+// function count(array, element) {
+//   let count = 0;
+//   for (let curruntElement of array) {
+//     if (element === curruntElement) count++;
+//   }
+//   return count;
+// }
+
+// console.log(count(numbers, element));
