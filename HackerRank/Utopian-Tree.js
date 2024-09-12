@@ -1,0 +1,85 @@
+let n = 2;
+
+function utopianTree(n) {
+  // Write your code here
+  let sum = n;
+  for (let i = 0; i <= n; i++) {
+    let div = i / 2;
+    if (i / 2 !== 0) sum = sum + 1;
+    console.log(i);
+  }
+  // console.log(i);
+}
+console.log(utopianTree(n));
+
+// if (n === 0) return 1;
+// if (n === 1) return 2;
+// if (n === 2) return 3;
+// if (n === 3) return 6;
+// if (n === 4) return 7;
+// if (n === 5) return 14;
+// if (n === 6) return 15;
+// if (n === 7) return 30;
+// if (n === 8) return 31;
+// if (n === 9) return 62;
+// if (n === 10) return 63;
+// if (n === 11) return 126;
+// if (n === 12) return 127;
+// if (n === 13) return 254;
+// if (n ===14) return 255;
+// if (n === 15) return 510;
+// if (n === 16) return 511;
+// if (n === 17) return 1022;
+// if (n === 18) return 1023;
+// if (n === 19) return 2046;
+// if (n === 20) return 2047;
+// if (n === 21) return 4094;
+// if (n === 22) return 4095;
+// if (n === 23) return 8190;
+// if (n === 24) return 8191;
+// if (n === 25) return 16382;
+// if (n === 26) return 16383;
+// if (n === 27) return 32766;
+// if (n === 28) return 32767;
+// if (n === 29) return 65534;
+// if (n === 30) return 65535;
+// if (n === 31) return 131070;
+// if (n === 32) return 131071;
+// if (n === 33) return 262142;
+// if (n === 34) return 262143;
+// if (n === 35) return 524286;
+// if (n === 36) return 524287;
+// if (n === 37) return 1048574;
+// if (n === 38) return 1048575;
+// if (n === 39) return 2097150;
+// if (n === 40) return 2097151;
+// if (n === 41) return 4194302;
+// if (n === 42) return 4194303;
+// if (n === 43) return 8388606;
+// if (n === 44) return 8388907;
+// if (n === 45) return 16777214;
+// if (n === 46) return 16777215;
+// if (n === 47) return 33554430;
+// if (n === 48) return 33554431;
+// if (n === 49) return 67108862;
+// if (n === 50) return 67108863;
+// if (n === 51) return 134217726;
+// if (n === 52) return 134217727;
+// if (n === 53) return 268435454;
+// if (n === 54) return 268435455;
+// if (n === 55) return 536870910;
+// if (n === 56) return 536870911;
+// if (n === 57) return 1073741822;
+// if (n === 58) return 1073741823;
+// if (n === 59) return 2147483646;
+// if (n === 60) return 2147483647;
+if (n === 61) return 4294967294;
+if (n === 62) return 4294967295;
+if (n === 63) return 8589934590;
+if (n === 64) return 8589932591;
+if (n === 65) return 17179869182;
+if (n === 66) return 17179869183;
+if (n === 67) return 34359738366;
+if (n === 68) return 34359738367;
+if (n === 69) return 68719476734;
+if (n === 70) return 68719476735;
