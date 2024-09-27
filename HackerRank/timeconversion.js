@@ -5,7 +5,7 @@ function plusMinus(arr) {
   let negative = 0;
   let none = 0;
   // Write your code here
-  for (let number of array) if (number > 0) positive++;
+  for (let number of arr) if (number > 0) positive++;
   if ((number = 0)) none++;
   if (number < 0) negative++;
   console.log(positive, negative, none);
