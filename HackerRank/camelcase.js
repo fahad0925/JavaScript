@@ -15,5 +15,8 @@
 // console.log("a".charCodeAt(0));
 // console.log("b".charCodeAt(0));
 
-let a = "abc";
-console.log(a.split("").map((char) => char + 1));
+// let a = "abc";
+// console.log(a.split("").map((char) => char + 1));
+
+let q = [1, -1, -1, -4];
+let b = q.map(Math.abs);

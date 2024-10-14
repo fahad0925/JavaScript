@@ -18,14 +18,14 @@ function funnyString(s) {
   let negToPostiveValue = firstArrayValue.map((num) => Math.abs(num));
   let negToPostiveValuetwo = secondArrayValue.map((num) => Math.abs(num));
 
-  console.log(
-    charcode,
-    reversed,
-    firstArrayValue,
-    secondArrayValue,
-    negToPostiveValue,
-    negToPostiveValuetwo
-  );
+  //   console.log(
+  //     charcode,
+  //     reversed,
+  //     firstArrayValue,
+  //     secondArrayValue,
+  //     negToPostiveValue,
+  //     negToPostiveValuetwo
+  //   );
   for (let i = 0; i <= negToPostiveValuetwo.length; i++) {
     if (negToPostiveValue[i] !== negToPostiveValuetwo[i]) return "Not Funny";
   }
